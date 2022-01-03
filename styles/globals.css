@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    /* px-10 py-5 */
+    /* mt-12 px-10 py-5 px-10 py-3  */
+    @apply mt-10 h-12 text-lg px-10 py-2 uppercase;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ============ text hover styles ============ */
+.one:hover span:last-child {
+  width: 100%;
+}
+
+.two:hover span {
+  width: 50%;
+}
+
+.three:hover span {
+  height: 100%;
+}
+
+/* ============ button hover styles  ============ */
+.btn2 span:first-child {
+  transform: translateX(-101%);
+  transition: transform 0.3s ease-in;
+}
+.btn2:hover span {
+  transform: translateX(0);
+}
+
+.btn3 {
+  transform: scale(1);
+  transition: transform 0.2s ease-in;
+}
+
+.btn3:hover {
+  transform: scale(1.1);
+}
+
+.btn3 span {
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+.btn3:hover span {
+  transform: scale(1.1, 1.2);
+}
+
+.btn4 span {
+  transform: translateX(-101%);
+  transition: transform 0.2s ease-in;
+}
+
+.btn4:hover span {
+  transform: translateX(0);
+}
+
+/* ============ style hover styles ============ */
+#card:hover {
+  transform: rotateY(180deg);
+}
+
+/* ============ style hover styles ============ */
+.card {
+  transform-style: preserve-3d;
+}
+
+.card-front {
+  transform: rotateY(0);
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
