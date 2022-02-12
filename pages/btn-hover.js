@@ -8,9 +8,9 @@ export default function ButtonHover() {
           type="button"
         >
           <span className="absolute inset-0 bg-white"></span>
-          <div className="relative px-10 py-3 bg-blue-600">
+          <p className="relative px-10 py-3 bg-blue-600">
             scale hover effect 1
-          </div>
+          </p>
         </button>
 
         {/* effect 2 */}

@@ -1,14 +1,12 @@
 export default function FlipHover() {
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center bg-gray-500">
-      <div
-        id="card"
-        className="relative w-96 h-60 rounded-2xl font-mono text-white overflow-hidden cursor-pointer transition-all duration-500 duration-700 card"
-      >
-        <FrontOfCard />
+    <div
+      id="card"
+      className="relative w-96 h-60 rounded-2xl font-mono text-white overflow-hidden cursor-pointer transition-all duration-500 duration-700 card"
+    >
+      <FrontOfCard />
 
-        <BackOfCard />
-      </div>
+      <BackOfCard />
     </div>
   );
 }
