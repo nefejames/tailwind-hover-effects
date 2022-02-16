@@ -6,6 +6,7 @@ const routes = [
   { label: "Card Hover Effect", href: "/card-hover" },
   { label: "Flip Hover Effect", href: "flip-hover" },
   { label: "Gradient Hover Effect", href: "gradient-hover" },
+  { label: "Dropdown Hover Effect", href: "dropdown-hover" },
   // { label: "greeb", href: "/shine-hover" },
 ];
 
